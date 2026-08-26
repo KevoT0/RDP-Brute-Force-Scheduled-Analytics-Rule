@@ -114,8 +114,6 @@ SecurityEvent
 
 This returns the brute-force accounts, confirming the detection logic is correct. The only reason the scheduled rule stays quiet is the recency of the lab data — in production, against live telemetry, the same rule would fire on a real attack.
 
-> **Interview framing:** the rule is correctly built and validated. It does not fire on a live 1-hour schedule only because the lab dataset is historical. Distinguishing *"correctly quiet against stale data"* from *"broken"* is essential — an analyst who assumes a quiet rule is broken looks junior; one who explains why it is quiet and how to validate it anyway demonstrates detection-engineering understanding.
-
 **Production note:** if the lookback is widened to reach historical data for testing, it must be returned to 1 hour before shipping. Widen-to-test, narrow-to-ship — a rule scanning many days every hour is expensive and noisy in production.
 
 ---
