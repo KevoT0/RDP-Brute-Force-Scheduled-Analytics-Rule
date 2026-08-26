@@ -48,7 +48,7 @@ SecurityEvent
 
 ## Rule configuration
 
-![Analytics rule summary: RDP brute-force detection with query, hourly schedule, >0 threshold, and Account/Host entity mapping](7.png)
+![Analytics rule summary: RDP brute-force detection with query, hourly schedule, >0 threshold, and Account/Host entity mapping](https://github.com/KevoT0/RDP-Brute-Force-Scheduled-Analytics-Rule/blob/main/7.png)
 
 | Setting | Value | Reasoning |
 |---|---|---|
