@@ -48,6 +48,8 @@ SecurityEvent
 
 ## Rule configuration
 
+![Analytics rule summary: RDP brute-force detection with query, hourly schedule, >0 threshold, and Account/Host entity mapping](7.png)
+
 | Setting | Value | Reasoning |
 |---|---|---|
 | Name | RDP Brute-Force — Failed Logon Spike | Clear, describes the detection |
